@@ -1,0 +1,55 @@
+---
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Tyler Wanlass | Entreprenuer &amp; Designer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="/../css/normalize.min.css">
+        <link rel="stylesheet" href="/../css/main.css">
+        <link rel="stylesheet" href="/../css/linecons.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Roboto+Slab:300,400' rel='stylesheet' type='text/css'>
+
+        <script src="/../js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    </head>
+    <body>
+
+        {% include sidebar.html %}
+
+        <div class="content">
+            <article>
+                <div class="clearfix">
+                    <div class="heading pull-left push-right"><i class="li_calendar"></i> {{ page.date | date_to_string }}</div>
+                    <div class="heading pull-left push-left"><i class="li_pen"></i> Tyler Wanlass</div>
+                </div>
+                <div class="hr"></div>
+
+                <!-- <a href="{{ site.base_url }}{{ page.url }}">Permlink</a> -->
+                <h1>{{ page.title }}</h1>
+                <p>{{ content }}</p>
+                
+                <div class="article-footer">
+                    <div class="heading"><i class="li_news "></i> You should also check out...</div>
+                    <div class="hr"></div>
+                    {% if page.previous.url %} 
+                        <a href="{{page.previous.url}}" title="{{page.previous.title}}"><h3>{{page.previous.title}}</h3></a>
+                        {{page.previous.excerpt}}
+                    {% endif %} 
+
+                    {% if page.next.url %} 
+                        <a href="{{page.next.url}}" title="{{page.next.title}}"><h3>{{page.next.title}}</h3></a>
+                        <p>{{page.next.excerpt}}</p>
+                    {% endif %} 
+                </div>
+            </article>
+        </div>
+    </body>
+</html>
