@@ -94,14 +94,19 @@ textarea {
 }
 
 a {
-    border-bottom: 1px dashed rgba(0, 0, 0, 0.25);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
     color: #454545;
+    font-weight: 400;
     text-decoration: none;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;      
 }
 
 a:hover {
-    background-color: #fffcd2;
-    border-bottom: 1px dashed transparent;    
+    border-bottom: 2px solid rgba(0, 0, 0, 0.55);
 }
 
 
@@ -178,8 +183,8 @@ a:hover {
 }
 
 .footer a:hover {
-    background-color: transparent;
-    border-bottom: 1px dashed transparent;   
+    
+    
 }
 
 .heading {
@@ -191,14 +196,12 @@ a:hover {
 }
 
 a.post-title {
-    border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
-    color: #454545;
-    text-decoration: none;
+  font-weight: 600;
+  border-bottom-color: transparent;
 }
 
 a.post-title:hover {
-    background-color: #fffcd2;
-    border-bottom: transparent;
+  border-bottom-color: transparent; 
 }
 
 ul.post-list li {
@@ -229,14 +232,13 @@ nav li {
 }
 
 nav a {
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.25);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
     text-decoration: none;
     color: #fff;
 }
 
 nav a:hover {
-    background-color: transparent;
-    border-bottom: 1px dashed transparent;   
+    border-bottom: 2px solid rgba(255, 255, 255, 0.55);
 }
 
 article, .wrapper {
@@ -269,7 +271,7 @@ article, .wrapper {
 }
 
 .article-footer h3:hover {
-    background-color: #fffcd2;
+    
 }
 
 .article-footer p {
@@ -329,6 +331,139 @@ article h2 {
 
 article ol {
     list-style: decimal;
+}
+
+.email-subscribe {
+  background-color: #F9F9F9;
+  padding: 25px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;  
+  margin-top: 50px;
+}
+
+.email-subscribe  h3{
+  color: #454545;
+  display: block;
+  font-size: 16px;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+
+.email-subscribe span {
+  font-size: 12px; 
+  display: block;
+  color: rgba(0,0,0,.35);
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0 0;
+}
+
+.email-subscribe .btn, .email-subscribe input {
+  float: left;
+  width: 32%;
+}
+
+.email-subscribe input[type="text"], .email-subscribe input[type="email"] {
+  margin-right: 2%;
+}
+
+.btn {
+  background-color: #3875D7;
+  border: 0 none;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 16px 22px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;    
+}
+
+.btn:hover {
+  background-color: #3c7de5;
+  border: 0 none;
+}
+
+.social-share-bar {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.social-share-bar h3 {
+  color: #454545;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+}
+
+.social-share-bar h3 strong {
+  font-style: italic;
+  font-weight: bold;  
+}
+
+.social-share-bar .btn-group {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
+.social-share-bar .btn {
+    margin: 0 0.5%;
+    padding: 10px 20px;
+    width: 23%;
+}
+
+.btn.fb {
+  background-color: #4872c9;
+}
+  .btn.fb:hover {
+    background-color: #4d7bd6;
+  }
+
+.btn.twitter {
+  background-color: #1f98e4;
+}
+  .btn.twitter:hover {
+    background-color: #22a1f0
+  }
+
+.btn.buffer {
+  background-color: #70ba61;
+}
+  .btn.buffer:hover {
+    background-color: #77c767;
+  }
+
+.btn.hn {
+  background-color: #ed8641;
+}
+  .btn.hn:hover {
+    background-color: #fa8c43;
+  }
+
+input[type="text"], input[type="email"]  {
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 14px 14px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;    
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+  border-color: #3875D7;
+  outline: none;
+}
+
+label {
+  display: none;
 }
 
 .status {

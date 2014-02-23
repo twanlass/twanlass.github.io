@@ -34,9 +34,9 @@ In just 24 hours, our test group (in which we detached the favor and request by 
 
 1. Offer a simple reward to your customers but don’t ask for anything in return.
 2. In a separate communication, you can now ask for reciprocation. 
-3. Be sure to use other persuasion techniques like labeling and social proof in your communication.*
+3. Be sure to use other persuasion techniques like labeling and social proof in your communication. 1.
 
 By detaching the reward (our 25% off coupon) from the request (to take our survey) people felt less like they were being bribed and more like they were returning a favor. That feeling or perception made a huge difference in the rate and quality of our responses.
 You can read more about the reciprocity principle and other great persuasion techniques in Robert Cialdini’s book, [Yes!: 50 Scientifically Proven Ways to Be Persuasive](http://www.amazon.com/Yes-Scientifically-Proven-Ways-Persuasive/dp/1416576142/ref=cm_cr_pr_product_top).
 
-*Labeling, social proof and other techniques aren’t misleading or manipulative if you really mean it - “You’re an __awesome__ customer who we know __provides valuable feedback__.”
+1. Labeling, social proof and other techniques aren’t misleading or manipulative if you really mean it - “You’re an __awesome__ customer who we know __provides valuable feedback__.”
