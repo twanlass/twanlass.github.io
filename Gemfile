@@ -1,1 +1,0 @@
-gem 'jekyll-oembed', :require => 'jekyll_oembed'
