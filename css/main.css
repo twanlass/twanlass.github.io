@@ -117,11 +117,11 @@ a:hover {
 .sidebar {
     width: 300px;
     height: 100%;
-    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
     left: 0;
     position: fixed;
-    background-color: #242628;
-    color: #f9f9f9;
+    background-color: #fff;
+    color: #333;
     text-align: center;
     overflow: hidden;
     box-sizing: border-box;
@@ -145,6 +145,7 @@ a:hover {
     display: block;
     margin: 40px auto 30px;
     text-align: center;
+    width: 128px;
 }
 
 .logo {
@@ -160,11 +161,12 @@ a:hover {
 }
 
 .sidebar p {
-    padding: 0 75px;
+    padding: 0 50px;
 }
 
 .footer {
-    background-color: #242628;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
     bottom: 0;
     display: block;
     font-size: 14px;
@@ -174,17 +176,6 @@ a:hover {
     position: absolute;
     text-align: center;
     width: 300px;    
-}
-
-.footer a {
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.25);
-    text-decoration: none;
-    color: #fff;
-}
-
-.footer a:hover {
-    
-    
 }
 
 .heading {
@@ -214,7 +205,8 @@ ul.post-list p {
 }
 
 nav {
-    background-color: #3875D7;
+    background-color: #fff;
+    
 }
 
 nav ul {
@@ -232,13 +224,13 @@ nav li {
 }
 
 nav a {
-    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
     text-decoration: none;
-    color: #fff;
+    color: #333;
 }
 
 nav a:hover {
-    border-bottom: 2px solid rgba(255, 255, 255, 0.55);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.55);
 }
 
 article, .wrapper {
