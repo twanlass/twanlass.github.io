@@ -1,3 +1,4 @@
 exclude: ['Gemfile', 'Gemfile.lock', 'tdub.sublime-workspace', 'tdub.sublime-project']
 relative_permalinks: true
 permalink: /blog/:title
+excerpt_separator: "\n\n"

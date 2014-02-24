@@ -5,7 +5,7 @@ title: "Abstraction - The Death of Innovative Products"
 
 Building a new app or product these days is considerably easier than it was just 10 years ago. Middleware, open source and forks are abound. But today, most developers, designers and entrepreneurs wouldn’t dream of building a new library, server foundation or core technology to create their next upcoming product. 
 
->“ESPN […] had written their own ad servers because they didn’t have off-the-shelf solutions when they first started their website back in the late 1990s.” -[Andrew Chen](http://andrewchen.co/2012/05/30/stop-asking-but-how-will-they-make-money/)
+>“ESPN \[…\] had written their own ad servers because they didn’t have off-the-shelf solutions when they first started their website back in the late 1990s.” -[Andrew Chen](http://andrewchen.co/2012/05/30/stop-asking-but-how-will-they-make-money/)
 
 Building on the backs of giants - well established platforms, libraries and middleware - has a few big disadvantages however. The over-use of such building blocks is why I think we’re seeing so many ‘me too’ products. Single feature-products or amalgamations of services tied together to create something new, but not necessarily innovative or worse, lacking any real value.  Clones of clones.
 
