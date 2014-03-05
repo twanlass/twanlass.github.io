@@ -2,7 +2,6 @@
 layout: post
 title: "On Focus & Boiling An Ocean"
 ---
--
 Focus is something you learn, _not_ something you're born with.
 
 It's why most projects start out with huge, grandiose plans. Why after 6 months of hard work we've crammed _every single feature_ we can think of into our products or apps. And it's why our marketing and community efforts fall on deaf ears. 
@@ -23,4 +22,4 @@ How can potential customers rally behind something they can't relate to? The glo
 
 Remember: convincing 1 person to use our product and pay for it is a whole lot easier than convincing a 100 people (all with different needs) to do the same. 
 
-**Don't make this mistake. **
+**Don't make this mistake.**
