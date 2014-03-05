@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## On Focus And Boiling An Ocean
