@@ -1,7 +1,8 @@
 ---
-published: true
+layout: post
+title: "On Focus & Boiling An Ocean"
 ---
-
+-
 Focus is something you learn, _not_ something you're born with.
 
 It's why most projects start out with huge, grandiose plans. Why after 6 months of hard work we've crammed _every single feature_ we can think of into our products or apps. And it's why our marketing and community efforts fall on deaf ears. 
