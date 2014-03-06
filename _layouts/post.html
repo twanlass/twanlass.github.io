@@ -39,18 +39,21 @@
 <body>
   {% include sidebar.html %}
   <div class="content">
-    <article>
+    <article class="post">
       <div class="clearfix">
-        <div class="heading pull-left push-right"><i class="li_calendar"></i> {{page.date | date: "%B %Y" }}</div>
+        <div class="heading pull-right"><i class="li_calendar"></i> {{page.date | date: "%B %Y" }}</div>
+        <div class="heading pull-left"><i class="li_clock"></i><span class="wpm"></span></div>
       </div>
       <div class="hr"></div>
 
       <!-- <a href="{{ site.base_url }}{{ page.url }}">Permlink</a> -->
       <h1>{{ page.title }}</h1>
       <p>{{ content }}</p>
-      {% include email-subscribe.html %}
-      {% include social-share-bar.html %}
+    </article>
 
+    <article>
+    {% include email-subscribe.html %}
+    {% include social-share-bar.html %}      
       <div class="article-footer">
         <div class="heading"><i class="li_news "></i> You should also check out...</div>
         <div class="hr"></div>
@@ -63,8 +66,8 @@
         <a href="{{page.next.url}}" title="{{page.next.title}}"><h3>{{page.next.title}}</h3></a>
         <p>{{page.next.excerpt}}</p>
         {% endif %} 
-      </div>
-    </article>
+      </div>   
+    </article> 
   </div>
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -79,12 +82,21 @@
     })();
   </script>  
   <script type="text/javascript">
+    // Open all links in a new window
     var links = document.links;
     for (var i = 0, linksLength = links.length; i < linksLength; i++) {
        if (links[i].hostname != window.location.hostname) {
            links[i].target = '_blank';
        } 
-    }  
+    }
+  </script>
+  <script type="text/javascript">
+    // Simple read time per post - i.e. '2 min read'
+    var words = document.querySelector('.post').innerHTML
+    var wordCount = words.match(/\S+/g).length;
+    var wpm = Math.round(parseInt(wordCount) / 180)
+    var wpmDisplay = wpm+' min read'
+    document.querySelector('.wpm').innerHTML = wpmDisplay
   </script>
 </body>
 </html>

@@ -387,15 +387,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "#Freelance Playbook \n\n##Table of Contents\n\n###Getting Started\n- Where to stat: parttime or fulltime?\n- Set your lifestyle goals\n- Define your ideal client\n- Choose your hourly rate wisely\n- Setting up your business\n- Bookkeeping basics\n- Looking more professional / creating trust signals\n- Be the expert / becoming the expert\n\n\n###Finding Work\n- Finding new work\n- Setting up your lead pipeline (note: letsworkshop.com)\n- Increasing your close rate / don't blindly send out bids\n- Speak your clients language\n- Sell an experience not technology (note: don't compete w/ outsourced labor)\n- Improving client communication\n- Setting your availability \n- Contracts & legal mumbo jumbo\n\n\n###Working with clients\n- Remove ambiguity, have a documented process\n- Give clients context\n- Kill (un)billable hours - charge for free things\n- How to bill for your time - billing structures\n- You're only hired for one reason (to make your clients money)\n- Set well defined boundaries \n- Projects shouldn't 'end'\n- Moving to recurring income\n- Time is money - don't be cheap - pay for things\n- Firing your clients\n\n\n###Bonus\n- productizing your services\n- creating products for recurring income\n- Expand your team with sub-contractors\n- Expand your service offering\n- Directory of job post sites\n\n\n\n\n\n",
-			"settings":
-			{
-				"buffer_size": 1287,
-				"line_ending": "Unix",
-				"name": "#Freelance Playbook"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -433,6 +424,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Tyler/Dropbox/Repos/tdub_site/_includes/social-share-bar.html",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/css/main.css",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/tdub.sublime-project",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/_site/2013/05/27/finding-and-vetting-a-design-co-founder/index.html",
@@ -442,7 +434,6 @@
 		"/Users/Tyler/Dropbox/Repos/tdub_site/work/index.html",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/_layouts/post.html",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/_includes/sidebar.html",
-		"/Users/Tyler/Dropbox/Repos/tdub_site/_includes/social-share-bar.html",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/_config.yml",
 		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/stylesheets/views/setup.less",
 		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/stylesheets/views/base.less",
@@ -780,36 +771,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"settings":
-					{
-						"buffer_size": 1287,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1287
-							]
-						],
-						"settings":
-						{
-							"auto_name": "#Freelance Playbook",
-							"is_xml": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -858,6 +821,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"share",
+				"_includes/social-share-bar.html"
+			],
 			[
 				"main.c",
 				"css/main.css"
@@ -1365,10 +1332,6 @@
 			[
 				"settings.html",
 				"assets/views/settings.html"
-			],
-			[
-				"buton",
-				"assets/stylesheets/views/button.less"
 			]
 		],
 		"width": 0.0
