@@ -23,12 +23,12 @@
   <meta property="og:type" content="article" />
   <meta property="og:image" content="http://tdub.co/img/me.jpg" />
   <meta property="og:url" content="http://tdub.co{{ page.url }}" />
-  <meta property="og:description" content="Tyler Wanlass | Entreprenuer &amp; Designer" />
+  <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
 
   <!-- for Twitter -->          
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:description" content="Tyler Wanlass | Entreprenuer &amp; Designer" />
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
   <meta name="twitter:image" content="/img/me.jpg" />
 
   <link rel="stylesheet" href="/../css/normalize.min.css">
