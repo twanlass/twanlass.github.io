@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"wpm",
+				"wpmDisplay"
+			],
+			[
 				"cur",
 				"cursor"
 			],
@@ -387,6 +391,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/Tyler/Dropbox/Repos/static-base/site/_includes/head.html",
+			"settings":
+			{
+				"buffer_size": 1879,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Tyler/Dropbox/Repos/static-base/site/index.html",
+			"settings":
+			{
+				"buffer_size": 917,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Tyler/Dropbox/Repos/static-base/Gemfile",
+			"settings":
+			{
+				"buffer_size": 426,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Tyler/Dropbox/Repos/static-base/Guardfile",
+			"settings":
+			{
+				"buffer_size": 299,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -424,6 +460,15 @@
 	},
 	"file_history":
 	[
+		"/Users/Tyler/Dropbox/Repos/static-base/config.ru",
+		"/Users/Tyler/Dropbox/Repos/static-base/Rakefile",
+		"/Users/Tyler/Dropbox/Repos/static-base/_config-local.yml",
+		"/Users/Tyler/Dropbox/Repos/static-base/Guardfile",
+		"/Users/Tyler/Dropbox/Repos/static-base/site/index.html",
+		"/Users/Tyler/Dropbox/Repos/static-base/site/_includes/head.html",
+		"/Users/Tyler/Dropbox/Repos/static-base/Gemfile.lock",
+		"/Users/Tyler/Dropbox/Repos/tdub_site/_layouts/post.html",
+		"/Users/Tyler/Desktop/info.php",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/_includes/social-share-bar.html",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/css/main.css",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/tdub.sublime-project",
@@ -432,7 +477,6 @@
 		"/Users/Tyler/Dropbox/Repos/tdub_site/index.html",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/shop/index.html",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/work/index.html",
-		"/Users/Tyler/Dropbox/Repos/tdub_site/_layouts/post.html",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/_includes/sidebar.html",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/_config.yml",
 		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/stylesheets/views/setup.less",
@@ -543,15 +587,7 @@
 		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/views/add.html",
 		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/stylesheets/views/add.less",
 		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/stylesheets/views/bank.less",
-		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/views/bank.html",
-		"/Users/Tyler/Dropbox/Repos/tdub_site/_jekyll_s3.yml",
-		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/stylesheets/views/button.less",
-		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/stylesheets/views/account.less",
-		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/profiles/dev.coffee",
-		"/Users/Tyler/Dropbox/Repos/goods/app/assets/stylesheets/components/responsive.less",
-		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/stylesheets/views/404.less",
-		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/stylesheets/views/_includes.less",
-		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/profiles/staging.coffee"
+		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/views/bank.html"
 	],
 	"find":
 	{
@@ -583,6 +619,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"reload",
 			".ico",
 			"h1",
 			"value=\"value\"",
@@ -709,8 +746,7 @@
 			"header",
 			"def total",
 			"def self.total",
-			"self.total",
-			"content"
+			"self.total"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -771,8 +807,115 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/Tyler/Dropbox/Repos/static-base/site/_includes/head.html",
+					"settings":
+					{
+						"buffer_size": 1879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1080,
+								864
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Tyler/Dropbox/Repos/static-base/site/index.html",
+					"settings":
+					{
+						"buffer_size": 917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Tyler/Dropbox/Repos/static-base/Gemfile",
+					"settings":
+					{
+						"buffer_size": 426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								422,
+								400
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Tyler/Dropbox/Repos/static-base/Guardfile",
+					"settings":
+					{
+						"buffer_size": 299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								299
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -821,6 +964,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"post",
+				"_layouts/post.html"
+			],
 			[
 				"share",
 				"_includes/social-share-bar.html"
@@ -1328,10 +1475,6 @@
 			[
 				"404",
 				"assets/views/404.html"
-			],
-			[
-				"settings.html",
-				"assets/views/settings.html"
 			]
 		],
 		"width": 0.0
