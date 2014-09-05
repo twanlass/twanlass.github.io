@@ -38,6 +38,7 @@
 </head>
 <body>
 
+  {% include message-bar.html %}  
   {% include sidebar.html %}  
 
   <div class="content ">
@@ -45,9 +46,9 @@
       <div class="heading"><i class="li_bulb "></i> Work</div>
       <div class="hr"></div>
 
-      <p class="status">Current availability is <span>limited</span></p>
+      <p class="status">Current availability is <span>Very limited</span></p>
 
-      <p class="">I run <a href="http://www.wearealtitude.com">We Are Altitude</a>, a small consultancy in Boulder, Colorado.</p>
+      <p class="">I'm a partner &amp; creative <a href="http://www.wearealtitude.com">We Are Altitude</a>, a micro creative consultancy in Boulder, Colorado.</p>
 
       <p>We work with startups &amp; established companies to add value in the areas of <strong>visual design</strong>, <strong>user experience</strong>, <strong>conversion rate optimization</strong> &amp; <strong>analytics</strong>.</p>
 
@@ -119,17 +120,9 @@
 
     </div>
   </div>
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-32627981-1']);
-    _gaq.push(['_setDomainName', 'tdub.co']);
-    _gaq.push(['_trackPageview']);
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+  <script type="text/javascript" src='/../js/vendor/instantclick.min.js'></script>
+  {% include scripts.html %}  
+
 </body>
 </html>

@@ -26,7 +26,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300; /*300, 400, 600*/
     line-height: 1.4;
-    margin: 0;
+    margin: 60px 0 0 0;
     padding:0;
     height: 100%;
     position: relative;
@@ -74,6 +74,8 @@ hr {
 
 img {
     vertical-align: middle;
+    max-width: 100%;
+    border: 1px solid #ccc;
 }
 
 fieldset {
@@ -114,6 +116,28 @@ a:hover {
    Author's custom styles
    ========================================================================== */
 
+#instantclick-bar {
+  background: #454545;
+}
+
+.message-bar {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  display: table;
+  height: 60px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;  
+}
+
+.message-bar div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
 .sidebar {
     width: 300px;
     height: 100%;
@@ -127,6 +151,10 @@ a:hover {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box; 
+}
+
+.sidebar p {
+  text-align: left;
 }
 
 
@@ -143,9 +171,16 @@ a:hover {
 .avatar {
     border-radius: 100px 100px 100px 100px;
     display: block;
-    margin: 40px auto 30px;
+    margin: 10px auto 30px;
     text-align: center;
     width: 128px;
+}
+
+.book-preview {
+  border: 0;
+  margin-right: 10px;
+  position: relative;
+  bottom: -2px;
 }
 
 .logo {
@@ -167,7 +202,7 @@ a:hover {
 .footer {
     background-color: #fff;
     border-top: 1px solid #ccc;
-    bottom: 0;
+    bottom: 60px;
     display: block;
     font-size: 14px;
     font-weight: 600;
@@ -278,6 +313,15 @@ article h1 {
     text-transform: capitalize;
 }
 
+article h2 {
+    font-size: 32px;
+}
+
+article h3 {
+    font-size: 26px;
+    margin-top: 20px;
+}
+
 article p {
     color:#5e5e5e;
     font-size: 22px;
@@ -310,14 +354,14 @@ article ul, article ol {
 }
 
 article ul li, article ol li {
-    margin-bottom: 32px;
+    margin-bottom: 12px;
 }
 
 article ul {
     list-style: disc;
 }
 
-article h2 {
+article h2, article h3 {
     margin: 70px 0 25px;    
 }
 

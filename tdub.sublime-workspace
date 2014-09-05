@@ -391,38 +391,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/Tyler/Dropbox/Repos/static-base/site/_includes/head.html",
-			"settings":
-			{
-				"buffer_size": 1879,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/Tyler/Dropbox/Repos/static-base/site/index.html",
-			"settings":
-			{
-				"buffer_size": 917,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/Tyler/Dropbox/Repos/static-base/Gemfile",
-			"settings":
-			{
-				"buffer_size": 426,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/Tyler/Dropbox/Repos/static-base/Guardfile",
-			"settings":
-			{
-				"buffer_size": 299,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -460,17 +428,19 @@
 	},
 	"file_history":
 	[
+		"/Users/Tyler/Dropbox/Repos/tdub_site/css/normalize.css",
+		"/Users/Tyler/Dropbox/Repos/tdub_site/css/main.css",
+		"/Users/Tyler/Dropbox/Repos/tdub_site/_layouts/post.html",
+		"/Users/Tyler/Dropbox/Repos/tdub_site/_includes/social-share-bar.html",
+		"/Users/Tyler/Dropbox/Repos/static-base/Guardfile",
+		"/Users/Tyler/Dropbox/Repos/static-base/Gemfile",
+		"/Users/Tyler/Dropbox/Repos/static-base/site/index.html",
+		"/Users/Tyler/Dropbox/Repos/static-base/site/_includes/head.html",
 		"/Users/Tyler/Dropbox/Repos/static-base/config.ru",
 		"/Users/Tyler/Dropbox/Repos/static-base/Rakefile",
 		"/Users/Tyler/Dropbox/Repos/static-base/_config-local.yml",
-		"/Users/Tyler/Dropbox/Repos/static-base/Guardfile",
-		"/Users/Tyler/Dropbox/Repos/static-base/site/index.html",
-		"/Users/Tyler/Dropbox/Repos/static-base/site/_includes/head.html",
 		"/Users/Tyler/Dropbox/Repos/static-base/Gemfile.lock",
-		"/Users/Tyler/Dropbox/Repos/tdub_site/_layouts/post.html",
 		"/Users/Tyler/Desktop/info.php",
-		"/Users/Tyler/Dropbox/Repos/tdub_site/_includes/social-share-bar.html",
-		"/Users/Tyler/Dropbox/Repos/tdub_site/css/main.css",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/tdub.sublime-project",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/_site/2013/05/27/finding-and-vetting-a-design-co-founder/index.html",
 		"/Users/Tyler/Dropbox/Repos/tdub_site/_site/index.html",
@@ -585,9 +555,7 @@
 		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/views/setup.html",
 		"/Users/Tyler/Dropbox/Repos/goods-static/app/assets/styles/views/index.less",
 		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/views/add.html",
-		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/stylesheets/views/add.less",
-		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/stylesheets/views/bank.less",
-		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/views/bank.html"
+		"/Users/Tyler/Dropbox/Repos/buttercoin-web-auth/assets/stylesheets/views/add.less"
 	],
 	"find":
 	{
@@ -619,6 +587,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"img",
+			"font-size",
+			"h2",
+			"articl",
 			"reload",
 			".ico",
 			"h1",
@@ -742,11 +714,7 @@
 			"client_id",
 			"Check your email and confirm your address",
 			"-->",
-			"<!--",
-			"header",
-			"def total",
-			"def self.total",
-			"self.total"
+			"<!--"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -807,115 +775,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/Tyler/Dropbox/Repos/static-base/site/_includes/head.html",
-					"settings":
-					{
-						"buffer_size": 1879,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1080,
-								864
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/Tyler/Dropbox/Repos/static-base/site/index.html",
-					"settings":
-					{
-						"buffer_size": 917,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								174,
-								174
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/Tyler/Dropbox/Repos/static-base/Gemfile",
-					"settings":
-					{
-						"buffer_size": 426,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								422,
-								400
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/Tyler/Dropbox/Repos/static-base/Guardfile",
-					"settings":
-					{
-						"buffer_size": 299,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								299
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -964,6 +825,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"nor",
+				"css/normalize.css"
+			],
+			[
+				"main",
+				"css/main.css"
+			],
+			[
+				"soci",
+				"_includes/social-share-bar.html"
+			],
 			[
 				"post",
 				"_layouts/post.html"
@@ -1297,10 +1170,6 @@
 				"assets/javascripts/app.coffee"
 			],
 			[
-				"main",
-				"assets/javascripts/main.coffee"
-			],
-			[
 				"legal",
 				"assets/views/legal.html"
 			],
@@ -1467,14 +1336,6 @@
 			[
 				"history.cof",
 				"assets/javascripts/controllers/history.coffee"
-			],
-			[
-				"404.les",
-				"assets/stylesheets/views/404.less"
-			],
-			[
-				"404",
-				"assets/views/404.html"
 			]
 		],
 		"width": 0.0
