@@ -73,7 +73,7 @@ With the discoverability of photos dramatically improved it was time to turn to 
 
 This was achieved with 3 core techniques: 
 
-1. **Responsive images.** No, we're not just talking about max-width: 100% here. Instead, we're talking about only loading images as big as they need to be. So instead of loading that huge image and scaling it down, we load an image at the exact dimensions we need which drastically reduce file size and load times. This is made incredibly simple with services like [Image Fly](http://imagefly.io).
+1. **Responsive images.** No, we're not just talking about max-width: 100% here. Instead, we're talking about only loading images as big as they need to be. So instead of loading that huge image and scaling it down, we load an image at the exact dimensions we need which drastically reduce file size and load times. This is made incredibly simple with services like [imagefly](http://imagefly.io).
 
 	**Author's note:** the site isn't yet fully responsive. Come on - it's a weekend hack project ;-)
 
@@ -115,7 +115,7 @@ If you're the nerdy type and curious, [re:splashed](http://resplashed.com) was b
 - [Firebase](http://firebase.com) - for data storage and authentication
 - [Amazon S3](http://aws.amazon.com/s3/) - for static files and web hosting
 - [CloudFront](http://aws.amazon.com/cloudfront/) - a CDN to speed file delivery up
-- [Image Fly](http://imagefly.io) - for on-the-fly responsive images & image resizing
+- [imagefly](http://imagefly.io) - for on-the-fly responsive images & image resizing
 - [Google Fonts] (https://www.google.com/fonts/specimen/Source+Sans+Pro)- Source Sans Pro to be specific :-)
 - [Echo.js](https://github.com/toddmotto/echo) - for lazy loading images as needed
 - [ImagesLoaded.js](https://github.com/desandro/imagesloaded) - JavaScript is all like "You images done yet or what?" 
