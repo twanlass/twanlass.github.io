@@ -121,21 +121,31 @@ a:hover {
 }
 
 .message-bar {
-  background-color: #fff;
+  background-color: #15c28f;
   border-bottom: 1px solid #ccc;
+  color: #fff;
   display: table;
   height: 60px;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 2;  
+  z-index: 2; 
+  font-weight: 400; 
 }
 
 .message-bar div {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+}
+
+.message-bar a {
+  color: #fff;
+}
+
+.message-bar a:hover {
+  border-color: #fff;
 }
 
 .sidebar {
@@ -157,6 +167,13 @@ a:hover {
   text-align: left;
 }
 
+.sidebar .bio-group a {
+  display: inline-block;
+}
+
+.sidebar .bio-group p {
+  white-space: pre-line;
+}
 
 .content {
     position: relative;
