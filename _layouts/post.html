@@ -13,19 +13,19 @@
 
   <!-- for Google -->
   <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
-  <meta name="keywords" content="tyler wanlass, startups, designer, boulder colorado, we ara altitude, simple goods" />
+  <meta name="keywords" content="tyler wanlass, startups, designer, we ara altitude, simple goods" />
 
   <meta name="author" content="Tyler Wanlass" />
   <meta name="copyright" content="(c) 2004 - 2014 Tyler Wanlass" />
 
-  <!-- for Facebook -->          
+  <!-- for Facebook -->
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:type" content="article" />
   <meta property="og:image" content="http://tdub.co/img/me.jpg" />
   <meta property="og:url" content="http://tdub.co{{ page.url }}" />
   <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
 
-  <!-- for Twitter -->          
+  <!-- for Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
@@ -37,7 +37,7 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Roboto+Slab:300,400' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  {% include message-bar.html %}  
+  {% include message-bar.html %}
   {% include sidebar.html %}
   <div class="content">
     <article class="post">
@@ -52,25 +52,25 @@
 
     <article>
     {% include email-subscribe.html %}
-    {% include social-share-bar.html %}      
+    {% include social-share-bar.html %}
       <div class="article-footer">
         <div class="heading"><i class="li_news "></i> You should also check out...</div>
         <div class="hr"></div>
-        {% if page.previous.url %} 
+        {% if page.previous.url %}
         <a href="{{page.previous.url}}" title="{{page.previous.title}}"><h3>{{page.previous.title}}</h3></a>
         {{page.previous.excerpt}}
-        {% endif %} 
+        {% endif %}
 
-        {% if page.next.url %} 
+        {% if page.next.url %}
         <a href="{{page.next.url}}" title="{{page.next.title}}"><h3>{{page.next.title}}</h3></a>
         <p>{{page.next.excerpt}}</p>
-        {% endif %} 
-      </div>   
-    </article> 
+        {% endif %}
+      </div>
+    </article>
   </div>
 
-  <script type="text/javascript" src='/../js/vendor/instantclick.min.js'></script> 
-  {% include scripts.html %}  
-  
+  <script type="text/javascript" src='/../js/vendor/instantclick.min.js'></script>
+  {% include scripts.html %}
+
 </body>
 </html>
