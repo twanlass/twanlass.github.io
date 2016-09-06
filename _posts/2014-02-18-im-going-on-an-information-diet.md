@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I'm Going on an (Information) Diet"
+title: "I'm going on an (information) diet"
 ---
 
 It's been 14 days since I've disconnected from the larger grid. 
