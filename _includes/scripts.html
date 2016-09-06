@@ -17,6 +17,7 @@
       this.setHrefTargets()
       this.setWordsPerMinute()
       this.trackAjaxPageViews()
+      this.widont()
     },
 
     setHrefTargets: function(){
@@ -24,7 +25,7 @@
       for (var i = 0, linksLength = links.length; i < linksLength; i++) {
          if (links[i].hostname != window.location.hostname) {
              links[i].target = '_blank';
-         } 
+         }
       }
     },
 
@@ -41,8 +42,16 @@
     trackAjaxPageViews: function(){
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-32627981-1']);
-      _gaq.push(['_setDomainName', 'tdub.co']);      
+      _gaq.push(['_setDomainName', 'tdub.co']);
       _gaq.push(["_trackPageview", location.pathname+location.search]);
+    },
+
+    widont: function(items){
+        items = document.querySelectorAll('.post p, .post-title a, h3')
+        for (i=0; i < items.length; i++) {
+            console.log(items[i].innerHTML)
+            items[i].innerHTML = items[i].innerHTML.replace(/\s([^\s<]+)\s*$/,'&nbsp;$1')
+        }
     }
   }
 </script>
@@ -52,4 +61,4 @@
     window.tdub.init();
   });
   InstantClick.init();
-</script> 
+</script>

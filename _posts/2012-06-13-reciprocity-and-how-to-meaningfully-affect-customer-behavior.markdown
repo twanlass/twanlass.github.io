@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reciprocity (and how to meaningfully affect customer behavior)"
+title: "Reciprocity (and How to Meaningfully Affect Customer Behavior)"
 ---
 It’s much easier for your customers and users to do nothing than it is to do something (damn you inertia!!!). This is a short guide on how I meanginfully affected customer behavoir (response rates) with the prinicle of reciprocity.
 

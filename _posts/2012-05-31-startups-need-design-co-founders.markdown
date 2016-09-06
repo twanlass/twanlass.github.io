@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Startups need design co-founders"
+title: "Why Startups Need Design Co-Founders"
 ---
 
 Design co-founders are getting a lot of love in the startup scene as of late. They are no longer a ‘nice to have’ but instead critical to the success of many companies. If you’re a technical co-founder, here's some thoughts on why you would want a designer on your founding team.

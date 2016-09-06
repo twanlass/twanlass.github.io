@@ -1,6 +1,10 @@
 ---
 layout: post
-title: "Case study: building re:splashed"
+title: "Case Study: Building re:splashed"
+---
+
+<div><p><strong>Update:</strong> as of September 2016 I've sold <a href="http://resplashed.com">re:splashed</a>. It was time to find a new home for the side project and make room for some new ones.</p></div>
+
 ---
 
 First, some background. [Unsplash](http://unsplash.com) is a project by the fine folks at [Crew](http://pickcrew.com) (an invite-only marketplace connecting projects with talent). 

@@ -37,24 +37,22 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Roboto+Slab:300,400' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  {% include message-bar.html %}
-  {% include sidebar.html %}
   <div class="content">
     <article class="post">
       <div class="clearfix">
-        <div class="heading pull-right"><i class="li_calendar"></i> {{page.date | date: "%B %Y" }}</div>
-        <div class="heading pull-left"><i class="li_clock"></i><span class="wpm"></span></div>
+        <div class="heading pull-left"><a href="/">&#10510; Back</a></div>
+        <div class="heading pull-right"><span class="wpm"></span></div>
       </div>
       <div class="hr"></div>
       <h1>{{ page.title }}</h1>
-      <p>{{ content }}</p>
+      {{ content }}
     </article>
 
     <article>
     {% include email-subscribe.html %}
     {% include social-share-bar.html %}
       <div class="article-footer">
-        <div class="heading"><i class="li_news "></i> You should also check out...</div>
+        <div class="heading">You should also check out...</div>
         <div class="hr"></div>
         {% if page.previous.url %}
         <a href="{{page.previous.url}}" title="{{page.previous.title}}"><h3>{{page.previous.title}}</h3></a>
@@ -63,9 +61,11 @@
 
         {% if page.next.url %}
         <a href="{{page.next.url}}" title="{{page.next.title}}"><h3>{{page.next.title}}</h3></a>
-        <p>{{page.next.excerpt}}</p>
+        {{page.next.excerpt}}
         {% endif %}
       </div>
+
+      {% include copyright.html %}
     </article>
   </div>
 
