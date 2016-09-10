@@ -106,7 +106,7 @@ a:hover {
    ========================================================================== */
 
 #instantclick-bar {
-  background: #454545;
+  background: #3875d7;
 }
 
 .content {
@@ -261,8 +261,8 @@ article h1 {
 
 @media (max-width: 700px) {
     article h1 {
-        font-size: 24px;
-        line-height: 34px;
+        font-size: 30px;
+        line-height: 38px;
     }
 }
 
@@ -288,7 +288,14 @@ article h1.post-title a:hover {
 
 article h2 {
     font-size: 32px;
-    margin: 70px 0 0;
+    margin: 35px 0 0;
+}
+
+@media (max-width: 700px) {
+    article h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
 }
 
 article h2 + p {
@@ -308,7 +315,7 @@ article p {
     color: #5e5e5e;
     font-size: 22px;
     font-weight: 300;
-    line-height: 28px;
+    line-height: 32px;
     margin-bottom: 22px;
     font-family: 'Neuton', serif;
 }
@@ -321,8 +328,8 @@ article p {
 }
 
 article.post > p:first-of-type {
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 26px;
+    line-height: 36px;
 }
 
 @media (max-width: 700px) {
@@ -340,14 +347,17 @@ article blockquote p {
     border-left: 1px solid #3875d7;
     margin: 50px 0;
     padding-left: 40px;
-    font-size: 26px;
-    line-height: 36px;
+    font-size: 22px;
+    line-height: 32px;
+    color: #3875d7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 @media (max-width: 700px) {
     article blockquote p {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 16px;
+        line-height: 27px;
         padding-left: 10px;
         margin: 22px 0;
     }
@@ -364,6 +374,14 @@ article ul, article ol {
     font-family: 'Neuton', serif;
     margin: 0 0 32px 20px;
 }
+
+@media (max-width: 700px) {
+    article ul, article ol {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
 
 article ul li, article ol li {
     margin-bottom: 12px;
@@ -430,6 +448,7 @@ input[type=submit], {
 @media (max-width: 700px) {
     .email-subscribe {
         padding: 20px 25px;
+        margin: 0 -25px;
     }
     .email-subscribe  h3 {
         font-size: 16px;
@@ -512,10 +531,10 @@ input[type=submit], {
 }
 
 @media (max-width: 700px) {
-    /*.social-share-bar .btn {
-        flex: 0 0 100%;
-        margin-bottom: 6px;
-    }*/
+    .social-share-bar .btn {
+        padding: 8px 0px;
+        font-size: 12px;
+    }
 }
 
 .btn.fb {

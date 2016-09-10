@@ -47,7 +47,7 @@
     },
 
     widont: function(items){
-        items = document.querySelectorAll('.post p, .post-title a, h3')
+        items = document.querySelectorAll('.post p, h1, h1 a, h2, h3, li')
         for (i=0; i < items.length; i++) {
             items[i].innerHTML = items[i].innerHTML.replace(/\s([^\s<]+)\s*$/,'&nbsp;$1')
         }
