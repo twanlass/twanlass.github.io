@@ -1,4 +1,4 @@
 exclude: ['tdub.sublime-workspace', 'tdub.sublime-project']
-highlighter: pygments
+highlighter: rouge
 permalink: /blog/:title
 excerpt_separator: "\n\n"
