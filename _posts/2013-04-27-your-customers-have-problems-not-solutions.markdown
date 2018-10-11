@@ -9,7 +9,7 @@ Here’s the thing. People are great at explaining what pains them. In excruciat
 
 What they suck at is describing a solution to that problem or pain point. You’re seriously better off deleting the email from your customer than implementing their ‘solution’.
 
-##Here’s why.
+## Here’s why.
 
 1. __Tunnel Vision__ - when we’re plagued with a very specific problem we envision a very specific solution. Great for this particular customer, not for everyone else. If you can solve 80% of their problem, the’ll still love you. I promise.
 2. __They Don’t Know Your Roadmap__ - advanced data export options? .CSV, .XLS? Maybe customers may want to manipulate their data to derive basic insights. Those new improvements to analytics your shipping next week should do the trick. If not, maybe you can include something that will while you also add value for other customers.
