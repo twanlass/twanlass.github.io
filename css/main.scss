@@ -1,112 +1,18 @@
-/* ==========================================================================
-   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
-   ========================================================================== */
+---
+---
 
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
-}
-
-ul, ol {
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    height: 100%;
-    width: 100%;
-}
-
-body {
-    color: #454545;
-    font-size: 1em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300; /*300, 400, 600*/
-    line-height: 1.4;
-    margin: 0;
-    padding:0;
-    height: 100%;
-    position: relative;
-}
-
-h1, h2, h3, h4, h5 {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 600;
-}
-
-b, strong {
-    font-family: 'Neuton', serif;
-    font-weight: 700; /*300 & 400*/
-}
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-img {
-    vertical-align: middle;
-    max-width: 100%;
-    border: 1px solid #ccc;
-}
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-textarea {
-    resize: vertical;
-}
-
-.chromeframe {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-a {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
-    color: #454545;
-    font-weight: 400;
-    text-decoration: none;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-}
-
-a:hover {
-    border-bottom-color: transparent;
-}
-
+@import "reset";
+@import "typography";
+@import "layout";
+@import "nav";
+@import "post-head";
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
 #instantclick-bar {
-  background: #3875d7;
+  background: #2c4bff;
 }
 
 .content {
@@ -142,7 +48,7 @@ a:hover {
 
 .heading,
 .heading a {
-    color: #3875D7;
+    color: #2c4bff;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -167,35 +73,6 @@ ul.post-list li {
 
 ul.post-list p {
     margin-bottom: 100px;
-}
-
-nav {
-    background-color: #fff;
-
-}
-
-nav ul {
-    display: inline-block;
-    margin: 36px 0;
-}
-
-nav li {
-    color: #CCCCCC;
-    float: left;
-    font-size: 14px;
-    font-weight: 400;
-    margin: 0 15px;
-    text-transform: uppercase;
-}
-
-nav a {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
-    text-decoration: none;
-    color: #333;
-}
-
-nav a:hover {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.55);
 }
 
 article, .wrapper {
@@ -252,19 +129,7 @@ article, .wrapper {
     margin: 5px 0 25px;
 }
 
-article h1 {
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 52px;
-    letter-spacing: -1px;
-}
 
-@media (max-width: 700px) {
-    article h1 {
-        font-size: 30px;
-        line-height: 38px;
-    }
-}
 
 article h1.post-title,
 article h1.post-title a {
@@ -317,7 +182,6 @@ article p {
     font-weight: 300;
     line-height: 32px;
     margin-bottom: 22px;
-    font-family: 'Neuton', serif;
 }
 
 @media (max-width: 700px) {
@@ -344,13 +208,13 @@ article blockquote {
 }
 
 article blockquote p {
-    border-left: 1px solid #3875d7;
+    border-left: 1px solid #2c4bff;
     margin: 50px 0;
     padding-left: 40px;
     font-size: 22px;
     line-height: 32px;
-    color: #3875d7;
-    font-family: 'Roboto', sans-serif;
+    color: #2c4bff;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 500;
 }
 
@@ -371,7 +235,6 @@ article ul, article ol {
     font-size: 22px;
     font-weight: 300;
     line-height: 32px;
-    font-family: 'Neuton', serif;
     margin: 0 0 32px 20px;
 }
 
@@ -420,20 +283,13 @@ article ol {
 .email-subscribe__first-name,
 .email-subscribe__email,
 .email-subscribe__submit {
-  flex: 0 0 32%;
-}
-@media (max-width: 700px) {
-    .email-subscribe__first-name,
-    .email-subscribe__email,
-    .email-subscribe__submit {
-      flex: 0 0 100%;
-    }
+  width: 100%;
+  margin-bottom: 16px;
 }
 
 .input-wrapper {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 input[type=text],
@@ -471,7 +327,7 @@ input[type=submit], {
 }
 
 .btn {
-  background-color: #3875D7;
+  background-color: #2c4bff;
   border: 0 none;
   border-radius: 3px;
   color: #FFFFFF;
@@ -587,7 +443,7 @@ input[type="text"], input[type="email"]  {
 }
 
 input[type="text"]:focus, input[type="email"]:focus {
-  border-color: #3875D7;
+  border-color: #2c4bff;
   outline: none;
 }
 
@@ -616,12 +472,11 @@ label {
 }
 
 .about p {
-    color: #5e5e5e;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 28px;
-    margin-bottom: 22px;
-    font-family: 'Neuton', serif;
+  color: #1d1d1d;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 56px;
+  margin-bottom: 22px;
 }
 
 @media (max-width: 700px) {
@@ -725,7 +580,7 @@ label {
 }
 
 .hr {
-    background-color: #3875D7;
+    background-color: #2c4bff;
     height: 1px;
     margin: 5px 0 25px;
     width: 100%;

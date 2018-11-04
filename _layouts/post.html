@@ -21,7 +21,7 @@
   <!-- for Facebook -->
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:type" content="article" />
-  <meta property="og:image" content="http://tdub.co/img/me.jpg" />
+  <meta property="og:image" content="http://tdub.co/img/tyler-headshot-square-sm.jpg" />
   <meta property="og:url" content="http://tdub.co{{ page.url }}" />
   <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
 
@@ -29,28 +29,27 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
-  <meta name="twitter:image" content="/img/me.jpg" />
+  <meta name="twitter:image" content="/img/tyler-headshot-square-sm.jpg" />
 
-  <link rel="stylesheet" href="/../css/normalize.min.css">
   <link rel="stylesheet" href="/../css/main.css">
-  <link rel="stylesheet" href="/../css/linecons.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Roboto+Slab:300,400' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div class="content">
+  {% include nav.html %}
+  <main>
     <article class="post">
-      <div class="clearfix">
-        <div class="heading pull-left"><a href="/">&#10510; Back</a></div>
-        <div class="heading pull-right"><span class="wpm"></span></div>
+      <div class="post-head">
+        <h1 class="post-head__title">{{ page.title }}</h1>
+        <div class="post-head-meta">
+          <div class="post-head-meta__reading-time"><span class="wpm"></span></div>
+          <div class="post-head-meta__separator">•</div>
+          <div class="post-head-meta__date">{{ page.date | date: "%b %e, %Y" }}</div>
+        </div>
       </div>
-      <div class="hr"></div>
-      <h1>{{ page.title }}</h1>
       {{ content }}
     </article>
 
     <article>
     {% include email-subscribe.html %}
-    {% include social-share-bar.html %}
       <div class="article-footer">
         <div class="heading">You should also check out...</div>
         <div class="hr"></div>
@@ -67,7 +66,7 @@
 
       {% include copyright.html %}
     </article>
-  </div>
+  </main>
 
   <script type="text/javascript" src='/../js/vendor/instantclick.min.js'></script>
   {% include scripts.html %}

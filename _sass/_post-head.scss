@@ -1,0 +1,38 @@
+.post-head {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  position: relative;
+}
+
+  .post-head:after {
+    background-color: #ccc;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 48px;
+  }
+
+.post-head__title {
+  font-size: 56px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 58px;
+  margin-bottom: 24px;
+}
+
+.post-head-meta {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  font-weight: bold;
+  justify-content: flex-start;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.post-head-meta__separator {
+  margin-right: 16px;
+  margin-left: 16px;
+}
