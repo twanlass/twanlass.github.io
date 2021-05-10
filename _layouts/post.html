@@ -5,66 +5,13 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Tyler Wanlass | {{ page.title }}</title>
-  <meta name="viewport" content="width=device-width">
-
-  <!-- for Google -->
-  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
-  <meta name="keywords" content="tyler wanlass, startups, designer, we ara altitude, simple goods" />
-
-  <meta name="author" content="Tyler Wanlass" />
-  <meta name="copyright" content="(c) 2004 - 2014 Tyler Wanlass" />
-
-  <!-- for Facebook -->
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:type" content="article" />
-  <meta property="og:image" content="http://tdub.co/img/tdub-headshot-2020.jpg" />
-  <meta property="og:url" content="http://tdub.co{{ page.url }}" />
-  <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
-
-  <!-- for Twitter -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
-  <meta name="twitter:image" content="/img/tdub-headshot-2020.jpg" />
-
-  <link rel="stylesheet" href="/../css/normalize.min.css">
-  <link rel="stylesheet" href="/../css/main.css">
-  <link rel="stylesheet" href="/../css/linecons.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Roboto+Slab:300,400' rel='stylesheet' type='text/css'>
-</head>
+{% include head.html %}
 <body>
   <div class="content">
+    {% include navigation.html %}
     <article class="post">
-      <div class="clearfix">
-        <div class="heading pull-left"><a href="/">&#10510; Back</a></div>
-        <div class="heading pull-right"><span class="wpm"></span></div>
-      </div>
-      <div class="hr"></div>
       <h1>{{ page.title }}</h1>
       {{ content }}
-    </article>
-
-    <article>
-    {% include email-subscribe.html %}
-    {% include social-share-bar.html %}
-      <div class="article-footer">
-        <div class="heading">You should also check out...</div>
-        <div class="hr"></div>
-        {% if page.previous.url %}
-        <a href="{{page.previous.url}}" title="{{page.previous.title}}"><h3>{{page.previous.title}}</h3></a>
-        {{page.previous.excerpt}}
-        {% endif %}
-
-        {% if page.next.url %}
-        <a href="{{page.next.url}}" title="{{page.next.title}}"><h3>{{page.next.title}}</h3></a>
-        {{page.next.excerpt}}
-        {% endif %}
-      </div>
-
       {% include copyright.html %}
     </article>
   </div>
