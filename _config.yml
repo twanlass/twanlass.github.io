@@ -2,3 +2,4 @@ exclude: ['tdub.sublime-workspace', 'tdub.sublime-project']
 highlighter: rouge
 permalink: /blog/:title
 excerpt_separator: "\n\n"
+url: https://tdub.co
