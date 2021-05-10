@@ -21,6 +21,7 @@ html {
 }
 
 body {
+    background-color: #f2f0e7;
     color: #454545;
     font-size: 1em;
     font-family: 'Inter', sans-serif;  /* 300,500,900 */
