@@ -21,25 +21,27 @@ html {
 }
 
 body {
+    background-color: #f2f0e7;
     color: #454545;
     font-size: 1em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300; /*300, 400, 600*/
+    font-family: 'Inter', sans-serif;  /* 300,500,900 */
+    font-weight: 500; /*300, 400, 600*/
     line-height: 1.4;
     margin: 0;
     padding:0;
     height: 100%;
     position: relative;
+     -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5 {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 600;
+   font-family: 'Inter', sans-serif;  /* 300,500,900 */
+   font-weight: 900;
 }
 
 b, strong {
-    font-family: 'Neuton', serif;
-    font-weight: 700; /*300 & 400*/
+    font-family: 'Frank Ruhl Libre', serif; /* 300,500 */
+    font-weight: 700;
 }
 
 ::-moz-selection {
@@ -89,15 +91,10 @@ a {
     color: #454545;
     font-weight: 400;
     text-decoration: none;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
 }
 
 a:hover {
-    border-bottom-color: transparent;
+    border-color: #454545;
 }
 
 
@@ -155,8 +152,12 @@ ul.post-list {
 }
 
 ul.post-list li {
-    margin-bottom: 45px;
+    margin-bottom: 16px;
     list-style: none;
+}
+
+ul.post-list li a {
+  font-size: 22px;
 }
 
 @media (max-width: 700px) {
@@ -170,43 +171,53 @@ ul.post-list p {
 }
 
 nav {
-    background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0 60px;
+}
 
+@media (max-width: 700px) {
+    nav {
+      margin: 0 10px;
+    }
 }
 
 nav ul {
     display: inline-block;
+    list-style: none;
     margin: 36px 0;
 }
 
 nav li {
-    color: #CCCCCC;
     float: left;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
-    margin: 0 15px;
+    margin-right: 24px;
     text-transform: uppercase;
 }
 
-nav a {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+nav a, nav a:visited {
     text-decoration: none;
-    color: #333;
+    border: 0;
+    color: #737373;
+    font-weight: 900;
 }
 
-nav a:hover {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.55);
+nav a:hover, nav a.nav--active {
+    color: #000
 }
 
 article, .wrapper {
     width: 700px;
-    margin: 0 auto;
+    margin: 0 60px;
 }
 
 @media (max-width: 700px) {
     article,
     .wrapper {
         width: 100%;
+        margin: 0 10px;
     }
 }
 
@@ -252,7 +263,7 @@ article, .wrapper {
     margin: 5px 0 25px;
 }
 
-article h1 {
+article h1, h1.title {
     font-size: 42px;
     font-weight: 600;
     line-height: 52px;
@@ -260,7 +271,7 @@ article h1 {
 }
 
 @media (max-width: 700px) {
-    article h1 {
+    article h1, h1.title {
         font-size: 30px;
         line-height: 38px;
     }
@@ -317,7 +328,7 @@ article p {
     font-weight: 300;
     line-height: 32px;
     margin-bottom: 22px;
-    font-family: 'Neuton', serif;
+    font-family: 'Frank Ruhl Libre', serif; /* 300,500 */
 }
 
 @media (max-width: 700px) {
@@ -344,14 +355,14 @@ article blockquote {
 }
 
 article blockquote p {
-    border-left: 1px solid #3875d7;
+    border-left: 6px solid #3875d7;
     margin: 50px 0;
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: 22px;
     line-height: 32px;
     color: #3875d7;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-family: 'Frank Ruhl Libre', serif; /* 300,500 */
+    font-weight: 900;
 }
 
 @media (max-width: 700px) {
@@ -371,7 +382,7 @@ article ul, article ol {
     font-size: 22px;
     font-weight: 300;
     line-height: 32px;
-    font-family: 'Neuton', serif;
+    font-family: 'Frank Ruhl Libre', serif; /* 300,500 */
     margin: 0 0 32px 20px;
 }
 
@@ -611,19 +622,6 @@ label {
     margin: 0 0 75px;
 }
 
-.about {
-    margin-bottom: 75px;
-}
-
-.about p {
-    color: #5e5e5e;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 28px;
-    margin-bottom: 22px;
-    font-family: 'Neuton', serif;
-}
-
 @media (max-width: 700px) {
     .about {
         margin-bottom: 25px;
@@ -638,12 +636,17 @@ label {
 .copyright a {
     margin: 40px 0 20px;
     font-size: 12px;
-    font-weight: 700;
     color: #454545;
 }
 
 .copyright {
     opacity: .5;
+}
+
+.last-mod {
+  font-size: 14px;
+  font-weight: bold;
+  opacity: .5;
 }
 
 /* ==========================================================================
