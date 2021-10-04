@@ -12,11 +12,14 @@
   <meta name="author" content="Tyler Wanlass" />
   <meta name="copyright" content="&copy; {{ 'now' | date: "%Y" }} Tyler Wanlass" />
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{ site.url }}/img/tw-favicon.png" />
+
   <!-- for Facebook -->
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:type" content="article" />
-  <meta property="og:image" content="http://tdub.co/img/me.jpg" />
-  <meta property="og:url" content="http://tdub.co{{ page.url }}" />
+  <meta property="og:image" content="{{ site.url }}/img/tdub-headshot-2020-sq.jpg" />
+  <meta property="og:url" content="{{ site.url }}/{{ page.url }}" />
   <meta property="og:description" content="Tyler Wanlass | Remote Product and Design leader" />
 
   <!-- for Twitter -->
