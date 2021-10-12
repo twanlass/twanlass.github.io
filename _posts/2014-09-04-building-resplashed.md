@@ -120,7 +120,7 @@ If you're the nerdy type and curious, [re:splashed](http://resplashed.com) was b
 - [Amazon S3](http://aws.amazon.com/s3/) - for static files and web hosting
 - [CloudFront](http://aws.amazon.com/cloudfront/) - a CDN to speed file delivery up
 - [imagefly](http://imagefly.io) - for on-the-fly responsive images & image resizing
-- [Google Fonts] (https://www.google.com/fonts/specimen/Source+Sans+Pro)- Source Sans Pro to be specific :-)
+- [Google Fonts](https://www.google.com/fonts/specimen/Source+Sans+Pro)- Source Sans Pro to be specific :-)
 - [Echo.js](https://github.com/toddmotto/echo) - for lazy loading images as needed
 - [ImagesLoaded.js](https://github.com/desandro/imagesloaded) - JavaScript is all like "You images done yet or what?"
 - [Handlebars.js](https://github.com/wycats/handlebars.js/) - simple templating
