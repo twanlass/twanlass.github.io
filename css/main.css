@@ -197,6 +197,13 @@ nav li {
     text-transform: uppercase;
 }
 
+  @media (max-width: 700px) {
+      nav li {
+        margin-right: 16px;
+        font-size: 16px;
+      }
+  }
+
 nav a, nav a:visited {
     text-decoration: none;
     border: 0;
