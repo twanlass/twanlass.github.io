@@ -9,6 +9,7 @@ I've always been a maker. Over the years I've worked on a lot of stuff. As a des
 ---
 
 ## TL;DR: a few things I've built / worked on:
+<br>
 - [Flipn' Monsters](https://www.youtube.com/watch?v=bUuI1OJ27oE) – iOS monster/memory game
 - [RocketBall](https://www.youtube.com/watch?v=MCRBygTU2NE) – Xbox 360 dodgeball game
 - [The Bourne Conspiracy](https://youtu.be/TT7Gn5bGnkk) - Xbox 360/PS3 game
@@ -77,9 +78,9 @@ This was a fun side project that [implemented search and tagging](https://tdub.c
 
 ## 2016–
 **Buffer**<br>
-I joined Buffer and spent the first few years building [Reply](http://web.archive.org/web/20190108235610/https://buffer.com/reply/), an inbox for social media. A learned a ton about dogfooding your own products, founder-led sales, and again, managing and working with a remote team.
+I joined Buffer and spent the first few years building [Reply](http://web.archive.org/web/20190108235610/https://buffer.com/reply/), an inbox for social media. A learned a ton about dogfooding your own product, founder-led sales, iterative product development, and again, building and working with a remote team.
 
-I would then go on to build, grown, and lead our Design team at Buffer. I helped us to unite all of our products through a shared design language and design system. 
+I then went on to build, grow, and lead our Design team at Buffer where I've helped us to unite all of our products through a shared design language and design system.
 
 The rest is still in-progress. Check back later 😄
 
