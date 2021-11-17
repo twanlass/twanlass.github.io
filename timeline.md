@@ -60,12 +60,14 @@ What I enjoyed most though were the strike teams / skunkwork teams I worked on w
 **Psyonix (owned by Epic Games)**<br>
 I spent a short stint at this awesome game studio. I largely worked on a the multi-player mode for a gory first person shooter, [Bulletstorm](https://youtu.be/K8F8-tVPMB4). I also had a blast doing some early design explorations for Rocket League, the wild car meets soccer sensation.
 
+I also learned a lot here about working with a remote team while we collaborated with the awesome folks in Poland at People Can Fly.
+
 ## 2011–2015
 **Smolio**<br>
 A friend and I would go all-in on a new startup idea. [Smolio](https://youtu.be/npCZNkPLOpc) was a simple portfolio builder for creatives. We built a pretty cool product but like most startups, spent too much time focused on building and not enough on distribution and finding customers. Lesson learned.
 
 **Simple Goods**<br>
-Over the course of a few weeks I decided to hack on a creator economy (no one called it that then) / ecommerce product after my experiencing trying to selling videos online with 3dmotive. My [prototype](https://youtu.be/k8ABxhFvhiY) was pretty solid. I'd go on to find a co-founder and even apply to Techstars (and not get in). After a while with only a little traction to show, [Simple Goods](https://simplegoods.co/) would be relegated to side project status. It continues to make enough money each year to pay for a nice-ish vacation.
+Over the course of a few weeks I decided to hack on a creator economy (no one called it that then) / ecommerce product after my experiencing trying to sell videos online with 3dmotive. My [prototype](https://youtu.be/k8ABxhFvhiY) was pretty solid. I'd go on to find a co-founder and even apply to Techstars (and not get in). After a while with only a little traction to show, [Simple Goods](https://simplegoods.co/) would be relegated to side project status. It continues to make enough money each year to pay for a nice-ish vacation.
 
 **We Are Altitude**<br>
 A good friend and I built, scaled up, and ran a remote product/design agency. We worked with a lot of funded startups building their first MVPs. We also helped more established companies explore new lines of business or vision prototypes. Running an agency is hard work. You get good/fast at understanding different types of businesses, business models, markets, and managing a team of radically different skillsets. The downside is that you never get to see a product through to several iterations.
@@ -75,7 +77,11 @@ This was a fun side project that [implemented search and tagging](https://tdub.c
 
 ## 2016–
 **Buffer**<br>
-In-progress. Check back later.
+I joined Buffer and spent the first few years building [Reply](http://web.archive.org/web/20190108235610/https://buffer.com/reply/), an inbox for social media. A learned a ton about dogfooding your own products, founder-led sales, and again, managing and working with a remote team.
+
+I would then go on to build, grown, and lead our Design team at Buffer. I helped us to unite all of our products through a shared design language and design system. 
+
+The rest is still in-progress. Check back later 😄
 
 ## 2018-2021
 **Dundun**<br>
