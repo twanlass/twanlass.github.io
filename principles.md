@@ -23,5 +23,5 @@ This list is just for me, though I encourage you to think about and document you
 * Invert
 * Two opposing ideas can be true at once
 * Infinite games > finite games
-* Be mindful of outsourcing your thinking
-* Riding the wave is easier than generating it
+* Don't outsource all your thinking
+* Riding the wave is easier than generating the wave
