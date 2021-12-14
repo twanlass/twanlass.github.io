@@ -8,14 +8,12 @@ I update my now page a few times a year to share a little bit about my current s
 
 ---
 
-I'm writing a private newsletter on web3. You can read [Issue #01 online](https://ckarchive.com/b/p9ueh9hp409k).
+I'm writing a private newsletter on web3. You can read the [first issue](https://ckarchive.com/b/p9ueh9hp409k) online.
 
 I'm renovating a [hundred year old house](https://www.instagram.com/cherrystreetrenovation/).
 
 I live in the Pacific Northwest with my wife, two daughters, and a dog.
 
 I'm currently exploring: web3, purchasing micro SaaS businesses, <s>short-term rental real estate, real estate development</s>.
-
-<s>I'm taking an extended break from social media.</s>
 
 I'm currently the VP of Design at [Buffer](https://buffer.com).
