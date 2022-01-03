@@ -152,8 +152,11 @@ ul.post-list {
 }
 
 ul.post-list li {
-    margin-bottom: 16px;
     list-style: none;
+    margin-bottom: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 ul.post-list li a {
@@ -383,6 +386,10 @@ article blockquote p {
 
 article p strong {
     color: #454545;
+}
+
+article blockquote p strong {
+    color: #3875d7;
 }
 
 article ul, article ol {

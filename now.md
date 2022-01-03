@@ -4,16 +4,18 @@ title: Now
 
 ---
 
-I update my now page a few times a year to share a little bit about my current state. It's largely inspired by [Derek Sivers](https://sive.rs/now). Last updated **December 14th, 2021**.
+I update my now page a few times a year to share a little bit about my current state. It's largely inspired by [Derek Sivers](https://sive.rs/now). Last updated **January 3rd, 2022**.
 
 ---
 
-I'm writing a private newsletter on web3. You can read the [first issue](https://ckarchive.com/b/p9ueh9hp409k) online.
+Building something new.
 
-I'm renovating a [hundred year old house](https://www.instagram.com/cherrystreetrenovation/).
+Writing about web3. [Read](https://tdub.co/blog/web3) the first issue and [subscribe](https://tdub.ck.page/web3) for new issues.
 
-I live in the Pacific Northwest with my wife, two daughters, and a dog.
+Renovating a [hundred year old house](https://www.instagram.com/cherrystreetrenovation/).
 
-I'm currently exploring: web3, purchasing micro SaaS businesses, <s>short-term rental real estate, real estate development</s>.
+Living in the Pacific Northwest with my wife, two daughters, and a dog.
 
-I'm currently the VP of Design at [Buffer](https://buffer.com).
+Currently learning about web3 and buying SaaS businesses.
+
+Previously Product + Design at [Buffer](https://buffer.com).
