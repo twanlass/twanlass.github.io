@@ -3,7 +3,7 @@ title: "Issue #01 – Web3 for Normal Humans"
 date: '2021-11-30 00:00:00'
 layout: post
 ---
-> **Note:** below is the first issue from newsletter, Web3 _for Normal Humans_.<br>
+> **Note:** below is Issue #01 from my newsletter, Web3 _for Normal Humans_.<br>
 > [Subscribe to get new issues in your inbox ✌️](https://tdub.ck.page/web3)
 
 **Alright, let’s jump in:**
