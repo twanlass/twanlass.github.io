@@ -1,27 +1,27 @@
 ---
 layout: page
 title: Principles
-last_modified: "– Last updated: December 14th, 2021"
 ---
+Last updated **January 5th, 2022**.
 
 These are a set of foundational principles and mental models I'm finding repeatedly useful in my life.
 
-This list is just for me, though I encourage you to think about and document your own. I may or may not write more about each specific one. Last updated **December 14th, 2021**.
+This list is just for me, though I encourage you to think about your own and document them as well. I may or may not write more about each specific one. 😀
 
 ---
 
-* You can learn from anyone
-* The only constant is change
-* Be wary of absolutes
-* Default to trust
-* Relationships over transactions
-* Necessary, but not sufficient
-* See the trees, see the forest
-* Alchemy is real
-* Production before consumption
-* As it is, not as you want it to be
-* Invert
-* Two opposing ideas can be true at once
-* Infinite games > finite games
-* Don't outsource all your thinking
-* Riding the wave is easier than generating the wave
+1. You can learn from anyone
+2. The only constant is change
+3. Be wary of absolutes
+4. Default to trust
+5. Relationships over transactions
+6. Necessary, but not sufficient
+7. See the trees, see the forest
+8. Alchemy is real
+9. Production before consumption
+10. As it is, not as you want it to be
+11. Invert
+12. Two opposing ideas can be true at once
+13. Infinite games > finite games
+14. Consciously outsource your thinking
+15. Riding the wave > creating the wave

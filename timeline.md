@@ -1,15 +1,18 @@
 ---
 layout: page
 title: Timeline
-
 ---
 
-I've always been a maker. Over the years I've worked on a lot of stuff. As a designer, engineer, product person, and business person. I've followed my curiosity down many rabbit holes. Below are some of the highlights. Last updated **November 11th, 2021**.
+Last updated **January 5th, 2022**
+
+I've always been a maker. Over the years I've worked on a lot of stuff. As a designer, engineer, product person, and business person.
+
+I've followed my curiosity down many rabbit holes. Below are some of the highlights.
 
 ---
 
 ## TL;DR: a few things I've built / worked on:
-<br>
+
 - [Flipn' Monsters](https://www.youtube.com/watch?v=bUuI1OJ27oE) – iOS monster/memory game
 - [RocketBall](https://www.youtube.com/watch?v=MCRBygTU2NE) – Xbox 360 dodgeball game
 - [The Bourne Conspiracy](https://youtu.be/TT7Gn5bGnkk) - Xbox 360/PS3 game
@@ -41,13 +44,13 @@ Later, while working at an electronics store in college, I quickly realized cust
 
 ## 2006-2011
 **The Laboratory**<br>
-A few friends and I got together to build an early iPhone game, [Flipn' Monsters](https://www.youtube.com/watch?v=bUuI1OJ27oE). It was polished and ton of fun. Made maybe ~$500 (at $0.99 a piece). Later we make the game free and saw over ~100K downloads. Mostly in China 🤷‍♂️.
+A few friends and I got together to build an early iPhone game, [Flipn' Monsters](https://www.youtube.com/watch?v=bUuI1OJ27oE). It was polished and ton of fun. Made maybe ~$500 (at $0.99 a piece). Later we make the game free and saw over ~100K downloads. Mostly in China. 🤷‍♂️
 
 **Fuel N’ Spark**<br>
 Another tiny game studio I started with a few friends. We shipped [RocketBall](https://www.youtube.com/watch?v=MCRBygTU2NE), one of the first XBLA (Xbox Live Arcade) games. It was _not_ polished and it's debateable (probably not) if it was any fun. The game was featured on IGN, Gamespy, etc.
 
 **3dmotive**<br>
-A few friends and I started recording video tutorials for artists looking to work in the games industry. This would eventually turn in a streaming platform and community and was my first real exposure to building a SaaS business. I also learned a ton about how to build and manage a remote team. It's still [around today](https://3dmotive.com/) and being run by my awesome friends and co-founders.
+A few friends and I started recording video tutorials for artists looking to work in the games industry. This would eventually turn in a streaming platform and community and was my first real exposure to building a SaaS business. I also learned a ton about how to build and manage a remote team. It's still [around today](https://3dmotive.com/) and being run by my awesome friends and previous co-founders.
 
 What does it have to do with 3d and cars? Nothing. Horrible naming skills strike again. 😆
 
@@ -76,17 +79,18 @@ A good friend and I built, scaled up, and ran a remote product/design agency. We
 **re:splashed**<br>
 This was a fun side project that [implemented search and tagging](https://tdub.co/blog/building-resplashed) on top [Unsplash](https://unsplash.com/) images. Remember when those were just a zip of images you'd get via email every week or so? I went on to sell this side project to fund other adventures.
 
-## 2016–
+## 2016–2021
 **Buffer**<br>
 I joined Buffer and spent the first few years building [Reply](http://web.archive.org/web/20190108235610/https://buffer.com/reply/), an inbox for social media. A learned a ton about dogfooding your own product, founder-led sales, iterative product development, and again, building and working with a remote team.
 
 I then went on to build, grow, and lead our Design team at Buffer where I've helped us to unite all of our products through a shared design language and design system.
 
-The rest is still in-progress. Check back later 😄
-
-## 2018-2021
 **Dundun**<br>
 A side project I built to manage my own tasks. Includes an [API](https://github.com/twanlass/dundun-api) and a [native Mac app](https://github.com/twanlass/dundun) as well as a [web version](https://getdundun.com/signup).
 
 **Hundo**<br>
 [Hundo](https://usehundo.com/) was a Shopify reviews app. This started as a side-project with a close friend to explore the Shopify eco-system.
+
+## 2022
+
+Something new. Check back later. 😄

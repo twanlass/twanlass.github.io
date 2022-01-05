@@ -1,5 +1,5 @@
 ---
-title: 'Maker / Manager Days: Or How to Get Sh*t Done When You’re Building a Startup'
+title: 'How to Get Sh*t Done When You’re Building a Startup'
 date: '2016-09-04 00:00:00'
 layout: post
 ---

@@ -12,12 +12,17 @@ title: Writing
   <div class="content ">
     {% include navigation.html %}
 
-    <h1 class="title">Writing</h1>
+    <h1 class="title">Web3</h1>
+    <p>Below you'll find a collection of posts I've written on Web3. These were first published in my newsletter, <a href="https://web3.tdub.co">Web3 – <em>for normal humans</em></a>.</p>
+
     <ul class="post-list">
-      {% for post in site.posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% for tag in site.tags %}
+          {% for post in tag[1] reversed %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
       {% endfor %}
     </ul>
+
     {% include copyright.html %}
   </div>
 
