@@ -10,7 +10,7 @@ I update my _now page_ a few times a year to share a little bit about my current
 ---
 
 - Building something new.
-- Writing about web3. [Read](/web3) the first issue and [subscribe](https://tdub.ck.page/web3) for new issues.
+- Writing [a newsletter about web3](https://web3.tdub.co/). Read [past posts](/web3). 
 - Renovating a [hundred year old house](https://www.instagram.com/cherrystreetrenovation/).
 - Living in the Pacific Northwest with my wife, two daughters, and a dog.
 - Currently learning about web3 and buying SaaS businesses.
