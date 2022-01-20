@@ -80,6 +80,7 @@ A hardware wallet like Ledger is also non-custodial. It's up to you to protect y
 - **Wallet Address** –  every wallet has a unique address that can be used to send and receive coins and NFTs to.
 
 **Here's your takeaway:**
+
 ​A Web3 wallet lets you buy and sell crypto and sign into dApps and websites.
 
 Oh and never ever share your wallet seed phrase or private key with anyone. 😅
