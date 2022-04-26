@@ -6,6 +6,10 @@
   --color__light-border: #ccc;
 }
 
+html, body, .content, .content--wide {
+  height: 100%;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   color: var(--color__dark);
@@ -161,6 +165,11 @@ footer ul {
   margin: auto;
 }
 
+  .content--wide {
+    max-width: 960px;
+    margin: auto;
+  }
+
   @media (max-width: 700px) {
       .content {
         padding-left: 24px;
@@ -214,4 +223,12 @@ footer ul {
 .banner p a,
 .banner p a:visited {
   color: #fff;
+}
+
+.figma-folio {
+  width: 100%;
+  height: 75vh;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
 }
