@@ -9,7 +9,8 @@ I update my _now page_ a few times a year to share a little bit about my current
 
 ---
 
-- Building new things again. Recently launched [Unframes](https://unfram.es).
+- Building [Simple Goods](https://simplegoods.co) full-time. 
+- Recently launched the fun side project [Unframes](https://unfram.es).
 - Writing [a newsletter about web3](https://web3.tdub.co/). Read [past posts](/web3).
 - Renovating a [hundred year old house](https://www.instagram.com/cherrystreetrenovation/).
 - Living in the Pacific Northwest with my wife, two daughters, and a dog.

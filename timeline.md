@@ -20,7 +20,6 @@ I've followed my curiosity down many rabbit holes. Below are some of the highlig
 - [3dmotive](https://3dmotive.com) – learn to make 3d game art
 - [Bulletstorm](https://youtu.be/K8F8-tVPMB4) - Xbox 360/PS3/PC game
 - [Tour.js](https://github.com/twanlass/tour.js) - tours for web apps
-- [Simple Goods](https://simplegoods.co) – app to sell digital goods
 - [Smolio](https://youtu.be/npCZNkPLOpc) - portfolio app for creatives
 - [re:splashed](https://tdub.co/blog/building-resplashed) - an early Unsplash mod
 - [Reply](http://web.archive.org/web/20190108235610/https://buffer.com/reply/) - an inbox for social media
@@ -28,6 +27,7 @@ I've followed my curiosity down many rabbit holes. Below are some of the highlig
 - [Dundun](https://github.com/twanlass/dundun) – a task/todo app & API
 - [Hundo](https://usehundo.com/) - Shopify reveiws app
 - [Unframes](https://unfram.es/) - Modern printing + framing
+- [Simple Goods](https://simplegoods.co) – if you can upload it, you can sell it ✌️
 
 ---
 
@@ -94,4 +94,4 @@ A side project I built to manage my own tasks. Includes an [API](https://github.
 
 ## 2022
 
-Something new. Check back later. 😄
+I'm currently working on [Simple Goods](https://simplegoods.co) full-time and having fun with [Unframes](https://unfram.es) on the side. 
