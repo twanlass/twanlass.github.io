@@ -3,16 +3,16 @@ layout: page
 title: Now
 ---
 
-Last updated **January 26th, 2022**.
+Last updated **June 17th, 2022**.
 
 I update my _now page_ a few times a year to share a little bit about my current state. It's largely inspired by [Derek Sivers](https://sive.rs/now).
 
 ---
 
-- Building [Simple Goods](https://simplegoods.co) full-time. 
-- Recently launched the fun side project [Unframes](https://unfram.es).
-- Writing [a newsletter about web3](https://web3.tdub.co/). Read [past posts](/web3).
+- Writing a short book on renovating old houses.
+- Building [Simple Goods](https://simplegoods.co). 
+- Launching a fun side project [Unframes](https://unfram.es).
+- Wrote [a newsletter about web3](https://web3.tdub.co/). Read [past posts](/web3).
 - Renovating a [hundred year old house](https://www.instagram.com/cherrystreetrenovation/).
 - Living in the Pacific Northwest with my wife, two daughters, and a dog.
-- Currently learning about web3 and buying SaaS businesses.
 - Previously Product + Design at [Buffer](https://buffer.com).
