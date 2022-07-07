@@ -28,6 +28,7 @@ I've followed my curiosity down many rabbit holes. Below are some of the highlig
 - [Hundo](https://usehundo.com/) - Shopify reveiws app
 - [Unframes](https://unfram.es/) - Modern printing + framing
 - [Simple Goods](https://simplegoods.co) – if you can upload it, you can sell it ✌️
+- [Renovating Old Houses](https://oldhousebook.com/?&utm_source=tdub.co) – a self-published ebook
 
 ---
 
@@ -94,4 +95,4 @@ A side project I built to manage my own tasks. Includes an [API](https://github.
 
 ## 2022
 
-I'm currently working on [Simple Goods](https://simplegoods.co) full-time and having fun with [Unframes](https://unfram.es) on the side. 
+I'm currently working on [Simple Goods](https://simplegoods.co) full-time, having fun with [Unframes](https://unfram.es) on the side, and I recently self-published a book – [Renovating Old Houses](https://oldhousebook.com/?&utm_source=tdub.co).
