@@ -2,7 +2,7 @@
 layout: page
 title: Principles
 ---
-Last updated **April 15th, 2022**.
+Last updated **September 8th, 2022**.
 
 These are a set of foundational principles and mental models I'm finding repeatedly useful in my life.
 
@@ -26,3 +26,4 @@ This list is just for me, though I encourage you to think about your own and doc
 14. Consciously outsource your thinking
 15. Riding the wave > creating the wave
 16. If you have to eat shit, don't nibble
+17. Observe without judgement
