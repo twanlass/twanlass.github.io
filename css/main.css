@@ -1,9 +1,12 @@
 :root {
-  --color__primary: #0077b1;
+  --color__primary: #000;
   --color__primary-lightest: #0077b133;
-  --color__dark: #333;
+  --color__dark: #222;
   --color__light: #fff;
   --color__light-border: #ccc;
+  --font-weight__light: 400;
+  --font-weight__medium: 500;
+  --font-weight__bold: 700;
 }
 
 html, body, .content, .content--wide {
@@ -11,13 +14,14 @@ html, body, .content, .content--wide {
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   color: var(--color__dark);
   background-color: var(--color__light);
+  font-weight: var(--font-weight__light);
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 72px;
   margin-top: 22px;
   margin-bottom: 22px;
   color: var(--color__dark);
@@ -42,6 +46,11 @@ li {
 
 p, ul, ol {
   margin-bottom: 24px;
+}
+
+.p--large {
+  font-size: 24px;
+  line-height: 34px;
 }
 
 ul, ol {
@@ -129,6 +138,7 @@ nav ul li,
 footer ul li {
   padding-right: 8px;
   padding-left: 8px;
+  font-size: 24px;
 }
 
 nav img {
