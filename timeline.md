@@ -3,7 +3,7 @@ layout: page
 title: Timeline
 ---
 
-Last updated **September 8th, 2022**
+Last updated **Feb 24th, 2023**.
 
 I've always been a maker. Over the years I've worked on a lot of stuff. As a designer, engineer, product person, and business person.
 
@@ -95,4 +95,8 @@ A side project I built to manage my own tasks. Includes an [API](https://github.
 
 ## 2022
 
-I'm currently working on [Simple Goods](https://simplegoods.co), having fun with [Unframes](https://unfram.es), and I recently self-published a book – [Renovating Old Houses](https://oldhousebook.com/?&utm_source=tdub.co).
+I sold my SaaS [Simple Goods](https://simplegoods.co), self-published a book – [Renovating Old Houses](https://oldhousebook.com/?&utm_source=tdub.co), and had some fun with [Unframes](https://unfram.es).
+
+## 2023
+
+...
