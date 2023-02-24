@@ -232,3 +232,11 @@ footer ul {
   border-radius: 8px;
   overflow: hidden;
 }
+
+/* CommandBar style overrides */
+
+
+.rc-dialog-wrap.commandbar-modal {
+  background-color: #0000001c;
+  backdrop-filter: blur(3px);
+}
