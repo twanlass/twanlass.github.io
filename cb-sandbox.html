@@ -1,6 +1,19 @@
 <html>
     <head>
+        <!-- Heap script -->
+        <script type="text/javascript">
+            window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+            heap.load("1695937466");
+
+            // Random user id for testing
+            let user_id = 'User_' + Math.floor(Math.random() * 100000);
+            heap.identify(user_id);
+        </script>        
         <style>
+            body {
+                font-family: sans-serif;
+                font-size: 18px;
+            }
             .demo, .demo div {
                 border: 1px solid black;
                 padding: 16px;
@@ -12,6 +25,13 @@
             I'm a parent div 👨🏻
             <div>I'm a child div 👧🏼</div>
             <div>I'm a child div 👧🏻</div>
+        </div>
+        <div class="heap">
+            <h2>Heap event playground</h2>
+            <button>Sign-in</button>
+            <button>Export Report</button>
+            <button>Invite Team</button>
+            <button>Upgrade</button>
         </div>
     </body>
 </html>
