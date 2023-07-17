@@ -1,0 +1,42 @@
+---
+---
+<html>
+    <head>
+        {% include testing-scripts.html %}
+        <style>
+            body {
+                font-family: sans-serif;
+                font-size: 18px;
+            }
+            .demo, .demo div {
+                border: 1px solid black;
+                padding: 16px;
+            }
+            .user-config {
+                background: #ccc;
+                padding: 16px;
+                border-radius: 8px;
+                position: absolute;
+                bottom: 16px;
+                left: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Detail</h1>
+        <h2><a href="/sandbox">Projects</a>/Surf 🏄‍♂️</h2>
+        <ul>
+            <li>Boards</li>
+            <li>Apparel</li>
+            <li>Sunglasses</li>
+        </ul>
+
+        <div class="user-config">
+            <b>User config tools</b>
+            <button onClick="localStorage.removeItem('cb-sandbox-user');">Clear user</button>
+            <button onClick="alert(localStorage.getItem('cb-sandbox-user'));">Get user</button>
+            <button onClick="localStorage.setItem('cb-sandbox-user', 'user_paid');">Set User: Paid 🤑</button>
+            <button onClick="localStorage.setItem('cb-sandbox-user', 'user_free');">Set User: Free 😎</button>
+        </div>
+    </body>
+</html>
