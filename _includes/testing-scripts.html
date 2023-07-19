@@ -25,7 +25,9 @@
     }
 
     heap.identify(user_id);
-    window.CommandBar.boot(user_id);
+    window.CommandBar.boot(user_id, {
+        plan: "pro"
+    });
 
     // Init Pendo
     (function(apiKey){
