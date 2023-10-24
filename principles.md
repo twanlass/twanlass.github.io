@@ -27,3 +27,5 @@ This list is just for me, though I encourage you to think about your own and doc
 15. Riding the wave > creating the wave
 16. If you have to eat shit, don't nibble
 17. Observe without judgement
+18. Never quit on a bad day
+19. Start with what it isn't
