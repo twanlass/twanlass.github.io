@@ -2,7 +2,7 @@
 layout: page
 title: Principles
 ---
-Last updated **September 8th, 2022**.
+Last updated **October 24th, 2023**.
 
 These are a set of foundational principles and mental models I'm finding repeatedly useful in my life.
 
